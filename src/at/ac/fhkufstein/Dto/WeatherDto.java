@@ -4,7 +4,8 @@ import javax.xml.bind.annotation.*;
 
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlRootElement
-public class WeatherDto {
+public class WeatherDto
+{
     @XmlAttribute(name = "id")
     private int id;
     @XmlElement(name = "main")
@@ -15,48 +16,61 @@ public class WeatherDto {
     @XmlTransient
     private String icon;
 
-    public WeatherDto(){}
-    public WeatherDto(int id, String main, String description, String icon) {
+    public WeatherDto()
+    {
+    }
+
+    public WeatherDto(int id, String main, String description, String icon)
+    {
         this.id = id;
         this.main = main;
         this.description = description;
         this.icon = icon;
     }
-    
-    public int getId() {
+
+    public int getId()
+    {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(int id)
+    {
         this.id = id;
     }
 
-    public String getMain() {
+    public String getMain()
+    {
         return main;
     }
 
-    public void setMain(String main) {
+    public void setMain(String main)
+    {
         this.main = main;
     }
 
-    public String getDescription() {
+    public String getDescription()
+    {
         return description;
     }
 
-    public void setDescription(String description) {
+    public void setDescription(String description)
+    {
         this.description = description;
     }
 
-    public String getIcon() {
+    public String getIcon()
+    {
         return icon;
     }
 
-    public void setIcon(String icon) {
+    public void setIcon(String icon)
+    {
         this.icon = icon;
     }
 
     @Override
-    public String toString() {
+    public String toString()
+    {
 
         StringBuilder sb = new StringBuilder();
 
@@ -64,11 +78,11 @@ public class WeatherDto {
 
         sb.append("ID: " + getId() + System.lineSeparator());
 
-        sb.append("Main: " + getMain()+ System.lineSeparator());
+        sb.append("Main: " + getMain() + System.lineSeparator());
 
-        sb.append("Descriptiong: " + getDescription()+ System.lineSeparator());
+        sb.append("Descriptiong: " + getDescription() + System.lineSeparator());
 
-        sb.append("Icon: " + getIcon()+ System.lineSeparator());
+        sb.append("Icon: " + getIcon() + System.lineSeparator());
 
         sb.append("_____________________________________");
 

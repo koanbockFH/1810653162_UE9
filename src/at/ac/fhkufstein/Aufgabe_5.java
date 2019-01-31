@@ -1,6 +1,7 @@
 package at.ac.fhkufstein;
 
 import at.ac.fhkufstein.Dto.WeatherDto;
+import at.ac.fhkufstein.Dto.WeatherDto_Aufgabe5;
 import at.ac.fhkufstein.Mapper.ObjectMapperWeather;
 
 import javax.xml.bind.JAXBContext;
@@ -8,7 +9,7 @@ import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
 import java.io.File;
 
-public class Aufgabe_3
+public class Aufgabe_5
 {
     public static void main(String[] args) throws JAXBException
     {
@@ -18,7 +19,9 @@ public class Aufgabe_3
         WeatherDto weather = (WeatherDto) unmarshaller.unmarshal(file);
         System.out.println(weather);
 
+        WeatherDto_Aufgabe5 w2 = new WeatherDto_Aufgabe5(weather.getId(), weather.getMain(), weather.getDescription()
+                , weather.getIcon());
         ObjectMapperWeather om = new ObjectMapperWeather();
-        om.writeJson(weather);
+        om.writeJson_Aufgabe5(w2);
     }
 }
