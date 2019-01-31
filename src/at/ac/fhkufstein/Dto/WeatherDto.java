@@ -1,11 +1,28 @@
 package at.ac.fhkufstein.Dto;
 
+import javax.xml.bind.annotation.*;
+
+@XmlAccessorType(XmlAccessType.FIELD)
+@XmlRootElement
 public class WeatherDto {
+    @XmlAttribute(name = "id")
     private int id;
+    @XmlElement(name = "main")
     private String main;
+    @XmlElement(name = "description")
     private String description;
+    //@XmlElement(name = "icon") Aufgabe 4
+    @XmlTransient
     private String icon;
 
+    public WeatherDto(){}
+    public WeatherDto(int id, String main, String description, String icon) {
+        this.id = id;
+        this.main = main;
+        this.description = description;
+        this.icon = icon;
+    }
+    
     public int getId() {
         return id;
     }
