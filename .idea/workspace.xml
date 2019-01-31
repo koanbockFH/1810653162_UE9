@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d92e853e-6c69-4c05-b7e8-50f758bd4360" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/at/ac/fhkufstein/Aufgabe_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/at/ac/fhkufstein/Dto/WeatherDto_Aufgabe5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/at/ac/fhkufstein/Mapper/ObjectMapperWeather.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ac/fhkufstein/Mapper/ObjectMapperWeather.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,13 +43,41 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/at/ac/fhkufstein/Aufgabe_3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="76" lean-forward="true" selection-start-line="15" selection-start-column="76" selection-end-line="15" selection-end-column="76" />
+            <state relative-caret-position="374">
+              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/at/ac/fhkufstein/Dto/WeatherDto_Aufgabe5.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#323#324#0" expanded="true" />
+                <element signature="e#348#349#0" expanded="true" />
+                <element signature="e#381#382#0" expanded="true" />
+                <element signature="e#409#410#0" expanded="true" />
+                <element signature="e#456#457#0" expanded="true" />
+                <element signature="e#483#484#0" expanded="true" />
+                <element signature="e#523#524#0" expanded="true" />
+                <element signature="e#555#556#0" expanded="true" />
+                <element signature="e#627#628#0" expanded="true" />
+                <element signature="e#661#662#0" expanded="true" />
+                <element signature="e#715#716#0" expanded="true" />
+                <element signature="e#761#762#0" expanded="true" />
+                <element signature="e#818#819#0" expanded="true" />
+                <element signature="e#845#846#0" expanded="true" />
+                <element signature="e#885#886#0" expanded="true" />
+                <element signature="e#917#918#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -133,6 +160,7 @@
         <option value="$PROJECT_DIR$/src/at/ac/fhkufstein/Aufgabe_2.java" />
         <option value="$PROJECT_DIR$/src/at/ac/fhkufstein/Mapper/ObjectMapperWeather.java" />
         <option value="$PROJECT_DIR$/src/at/ac/fhkufstein/Aufgabe_3.java" />
+        <option value="$PROJECT_DIR$/src/at/ac/fhkufstein/Dto/WeatherDto_Aufgabe5.java" />
       </list>
     </option>
   </component>
@@ -173,7 +201,7 @@
               <item name="1810653162_UE9" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="fhkufstein" type="462c0819:PsiDirectoryNode" />
-              <item name="Mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="Dto" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -184,7 +212,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548929303228" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548929422759" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/jackson-databind-2.9.8.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -281,12 +309,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548927565498</updated>
-      <workItem from="1548927569911" duration="1732000" />
+      <workItem from="1548927569911" duration="1846000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1732000" />
+    <option name="totallyTimeSpent" value="1846000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -429,10 +457,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/at/ac/fhkufstein/Aufgabe_3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="76" lean-forward="true" selection-start-line="15" selection-start-column="76" selection-end-line="15" selection-end-column="76" />
+        <state relative-caret-position="374">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/at/ac/fhkufstein/Dto/WeatherDto_Aufgabe5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
+            <element signature="e#818#819#0" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
+            <element signature="e#885#886#0" expanded="true" />
+            <element signature="e#917#918#0" expanded="true" />
           </folding>
         </state>
       </provider>
